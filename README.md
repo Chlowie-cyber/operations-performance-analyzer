@@ -36,33 +36,28 @@ operations-performance-analyzer/
 ## 💻 How to Run
 
 1. **Clone the repository:**
-
-git clone https://github.com/<your-username>/operations-performance-analyzer.git
-cd operations-performance-analyzer
+    git clone https://github.com/<your-username>/operations-performance-analyzer.git
+    cd operations-performance-analyzer
 
 
 2. **Create a virtual environment:**
-
-python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# macOS/Linux
-source .venv/bin/activate
+    python -m venv .venv
+  # Windows
+    .venv\Scripts\activate
+  # macOS/Linux
+    source .venv/bin/activate
 
 
 3. **Install dependencies:**
-
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 
 4. **Generate synthetic dataset:**
-
-python src/generate_data.py
+    python src/generate_data.py
 
 
 5. **Run analysis and create visualizations:**
-
-python src/analyze_operations.py
+    python src/analyze_operations.py
 
 Charts will be saved in the visuals/ folder.
 
@@ -80,14 +75,15 @@ visuals/productivity_trend.png → Average productivity trend
 visuals/sla_trend.png → Daily SLA compliance trend
 
 
-##🛠 Tech Stack
+## 🛠 Tech Stack
 
 Python 3
 Pandas (data manipulation)
 NumPy (data generation)
 Matplotlib (visualization)
 
-##📌 Author
+## 📌 Author
 
 Lehlogonolo Mpye
 GitHub: https://github.com/<Chlowie-cyber>
+
