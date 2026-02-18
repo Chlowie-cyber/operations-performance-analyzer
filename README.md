@@ -78,12 +78,16 @@ visuals/sla_trend.png → Daily SLA compliance trend
 ## 🛠 Tech Stack
 
 Python 3
+
 Pandas (data manipulation)
+
 NumPy (data generation)
+
 Matplotlib (visualization)
 
 ## 📌 Author
 
 Lehlogonolo Mpye
 GitHub: https://github.com/<Chlowie-cyber>
+
 
